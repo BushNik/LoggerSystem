@@ -212,4 +212,8 @@ class SQL extends Logger {
         return $this->statement;
     }
 
+    function flush() {
+        
+    }
+
 }

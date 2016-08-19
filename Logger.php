@@ -9,7 +9,7 @@ namespace ru\f_technology\logger;
  *
  * @author Bushuev Nikita
  */
-class Logger {
+abstract class Logger {
 
     /**
      * Массив логгеров определенного типа.
@@ -18,6 +18,21 @@ class Logger {
      * @var array
      */
     private static $instances;
+
+    /**
+     * Максимальная глубина массива, которая записывается в лог.
+     * 
+     * @var type int
+     */
+    private static $arrayDepth = 2;
+
+    public static function getArrayDepth() {
+        return self::$arrayDepth;
+    }
+
+    public static function setArrayDepth(type $arrayDepth) {
+        self::$arrayDepth = $arrayDepth;
+    }
 
     /**
      * Уникальный строковый идентификатор логгера
@@ -85,10 +100,6 @@ class Logger {
      * только если он не существует.
      * Используем шаблон Singleton.
      *
-     * <b>Вызывать нужно через синтаксис $var = &Log::singleton()
-     * Без амперсанда (&) перед вызовом метода, вернется копия
-     * а не ссылка</b>
-     *
      * @param string $logType   Тип логгера. Динамически создаем экземпляр 
      *                          класса соответствующего логгера, имя которого
      *                          передаем в $logType. 
@@ -106,48 +117,44 @@ class Logger {
      *                          типа или null в случае ошибки.
      */
     static function singleton($logType, $name = '', $id = '', $params = []) {
-        if (!isset($instances)) {
-            $instances = [];
+        if (!isset(self::$instances)) {
+            self::$instances = [];
         }
         $signature = serialize(array($logType, $name, $id, $params));
-        if (!isset($instances[$signature])) {
-            $instances[$signature] = Logger::factory($logType, $name, $id, $params);
+        if (!isset(self::$instances[$signature])) {
+            self::$instances[$signature] = self::factory($logType, $name, $id, $params);
         }
-        return $instances[$signature];
+        return self::$instances[$signature];
     }
 
     // Функция инициализации логирования
-    function open() {
-        return false;
-    }
+    abstract function open();
 
     // Функция деинициализации логирования
-    function close() {
-        return false;
-    }
+    abstract function close();
 
     // Функция сброса данных в поток
-    function flush() {
-        return false;
-    }
+    abstract function flush();
 
     /**
      *  Функция логирования сообщения $message
      * @param mixed $message Строка, массив, объект или исключение
      * @return boolean true в случае успешного логирования и false в обратном случае.
      */
-    function log($message) {
-        return false;
-    }
+    abstract function log($message);
 
     /**
      * Функция получения строкового значения сообщения лога
-     * Сообщение может быть: объектом, исключением, массивом, строкой
+     * Сообщение может быть: объектом, исключением, массивом, строкой.
+     * 
      * @param mixed $message    Сообщение для логирования
      * @return  string          Строковое значение сообщения лога
      */
     function getMessage($message) {
-        if (is_object($message)) {
+        if (is_array($message)) {
+            // Возвращаем обрезанный массив до глубины self::getArrayDepth()
+            $message = var_export(self::slice_array_depth($message, self::getArrayDepth()));
+        } else if (is_object($message)) {
             // если это объект, то вызываем метод __toString, если он существует
             if (method_exists($message, '__toString')) {
                 $message = (string) $message;
@@ -173,6 +180,27 @@ class Logger {
      */
     function formatMessage($format, $timestamp, $message) {
         return sprintf($format, $timestamp, $this->label, $message);
+    }
+
+    /**
+     * Возвращает обрезанный массив до глубины $depth.
+     * Глубина = 0, означает, что будет выведен только сам массив.
+     * 
+     * @param type $array массив
+     * @param type $depth глубина массива
+     * @return type массив
+     */
+    private function slice_array_depth($array, $depth = 0) {
+        foreach ($array as $key => $value) {
+            if (is_array($value)) {
+                if ($depth > 0) {
+                    $array[$key] = self::slice_array_depth($value, $depth - 1);
+                } else {
+                    unset($array[$key]);
+                }
+            }
+        }
+        return $array;
     }
 
 }

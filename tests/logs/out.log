@@ -58,3 +58,417 @@ Stack trace:
    'edible' => true,
    'color' => 'green',
 ))
+2016-08-19 06:39:05 [ident] 'Log entry 0'
+2016-08-19 06:39:05 [ident] 'Log entry 1'
+2016-08-19 06:39:05 [ident] 'Log entry 2'
+2016-08-19 06:39:05 [ident] array (
+  0 => 'Volvo',
+  1 => 'BMW',
+  2 => 'Toyota',
+)
+2016-08-19 06:39:05 [ident] exception 'Exception' with message 'Деление на ноль.' in C:\xampp\htdocs\LogSystem\tests\combine.php:29
+Stack trace:
+#0 {main}
+2016-08-19 06:39:05 [ident] Vegetable::__set_state(array(
+   'edible' => true,
+   'color' => 'blue',
+))
+2016-08-19 06:39:05 [ident] Spinach::__set_state(array(
+   'cooked' => false,
+   'edible' => true,
+   'color' => 'green',
+))
+2016-08-19 09:50:30 [ident] 'Log entry 0'
+2016-08-19 09:50:31 [ident] 'Log entry 1'
+2016-08-19 09:50:31 [ident] 'Log entry 2'
+2016-08-19 09:50:31 [ident] array (
+  0 => 'Volvo',
+  1 => 'BMW',
+  2 => 'Toyota',
+)
+2016-08-19 09:50:31 [ident] exception 'Exception' with message 'Деление на ноль.' in C:\xampp\htdocs\LogSystem\tests\combine.php:30
+Stack trace:
+#0 {main}
+2016-08-19 09:50:31 [ident] Vegetable::__set_state(array(
+   'edible' => true,
+   'color' => 'blue',
+))
+2016-08-19 09:50:31 [ident] Spinach::__set_state(array(
+   'cooked' => false,
+   'edible' => true,
+   'color' => 'green',
+))
+2016-08-19 09:54:22 [ident] 'Log entry 0'
+2016-08-19 09:54:22 [ident] 'Log entry 1'
+2016-08-19 09:54:22 [ident] 'Log entry 2'
+2016-08-19 09:54:22 [ident] array (
+  0 => 'Volvo',
+  1 => 'BMW',
+  2 => 'Toyota',
+)
+2016-08-19 09:54:22 [ident] exception 'Exception' with message 'Деление на ноль.' in C:\xampp\htdocs\LogSystem\tests\combine.php:30
+Stack trace:
+#0 {main}
+2016-08-19 09:54:22 [ident] Vegetable::__set_state(array(
+   'edible' => true,
+   'color' => 'blue',
+))
+2016-08-19 09:54:22 [ident] Spinach::__set_state(array(
+   'cooked' => false,
+   'edible' => true,
+   'color' => 'green',
+))
+2016-08-19 09:56:04 [ident] 'Log entry 0'
+2016-08-19 09:56:04 [ident] 'Log entry 1'
+2016-08-19 09:56:04 [ident] 'Log entry 2'
+2016-08-19 09:56:04 [ident] array (
+  0 => 'Volvo',
+  1 => 'BMW',
+  2 => 'Toyota',
+)
+2016-08-19 09:56:04 [ident] exception 'Exception' with message 'Деление на ноль.' in C:\xampp\htdocs\LogSystem\tests\combine.php:30
+Stack trace:
+#0 {main}
+2016-08-19 09:56:04 [ident] Vegetable::__set_state(array(
+   'edible' => true,
+   'color' => 'blue',
+))
+2016-08-19 09:56:04 [ident] Spinach::__set_state(array(
+   'cooked' => false,
+   'edible' => true,
+   'color' => 'green',
+))
+2016-08-19 09:56:52 [ident] 'Log entry 0'
+2016-08-19 09:56:52 [ident] 'Log entry 1'
+2016-08-19 09:56:52 [ident] 'Log entry 2'
+2016-08-19 09:56:52 [ident] array (
+  0 => 'Volvo',
+  1 => 'BMW',
+  2 => 'Toyota',
+)
+2016-08-19 09:56:52 [ident] exception 'Exception' with message 'Деление на ноль.' in C:\xampp\htdocs\LogSystem\tests\combine.php:30
+Stack trace:
+#0 {main}
+2016-08-19 09:56:52 [ident] Vegetable::__set_state(array(
+   'edible' => true,
+   'color' => 'blue',
+))
+2016-08-19 09:56:52 [ident] Spinach::__set_state(array(
+   'cooked' => false,
+   'edible' => true,
+   'color' => 'green',
+))
+2016-08-19 09:58:29 [ident] 'Log entry 0'
+2016-08-19 09:58:29 [ident] 'Log entry 1'
+2016-08-19 09:58:29 [ident] 'Log entry 2'
+2016-08-19 09:58:29 [ident] array (
+  0 => 'Volvo',
+  1 => 'BMW',
+  2 => 'Toyota',
+)
+2016-08-19 09:58:29 [ident] exception 'Exception' with message 'Деление на ноль.' in C:\xampp\htdocs\LogSystem\tests\combine.php:30
+Stack trace:
+#0 {main}
+2016-08-19 09:58:29 [ident] Vegetable::__set_state(array(
+   'edible' => true,
+   'color' => 'blue',
+))
+2016-08-19 09:58:29 [ident] Spinach::__set_state(array(
+   'cooked' => false,
+   'edible' => true,
+   'color' => 'green',
+))
+2016-08-19 10:36:31 [ident] 'Log entry 0'
+2016-08-19 10:36:31 [ident] 'Log entry 1'
+2016-08-19 10:36:31 [ident] 'Log entry 2'
+2016-08-19 10:37:34 [ident] 'Log entry 0'
+2016-08-19 10:37:35 [ident] 'Log entry 1'
+2016-08-19 10:37:35 [ident] 'Log entry 2'
+2016-08-19 10:37:48 [ident] 
+2016-08-19 10:37:48 [ident] exception 'Exception' with message 'Деление на ноль.' in C:\xampp\htdocs\LogSystem\tests\combine.php:30
+Stack trace:
+#0 {main}
+2016-08-19 10:37:52 [ident] Vegetable::__set_state(array(
+   'edible' => true,
+   'color' => 'blue',
+))
+2016-08-19 10:37:52 [ident] Spinach::__set_state(array(
+   'cooked' => false,
+   'edible' => true,
+   'color' => 'green',
+))
+2016-08-19 10:38:21 [ident] 'Log entry 0'
+2016-08-19 10:38:21 [ident] 'Log entry 1'
+2016-08-19 10:38:21 [ident] 'Log entry 2'
+2016-08-19 10:38:21 [ident] 
+2016-08-19 10:38:21 [ident] exception 'Exception' with message 'Деление на ноль.' in C:\xampp\htdocs\LogSystem\tests\combine.php:30
+Stack trace:
+#0 {main}
+2016-08-19 10:38:22 [ident] Vegetable::__set_state(array(
+   'edible' => true,
+   'color' => 'blue',
+))
+2016-08-19 10:38:22 [ident] Spinach::__set_state(array(
+   'cooked' => false,
+   'edible' => true,
+   'color' => 'green',
+))
+2016-08-19 10:38:30 [ident] 'Log entry 0'
+2016-08-19 10:38:30 [ident] 'Log entry 1'
+2016-08-19 10:38:31 [ident] 'Log entry 2'
+2016-08-19 10:38:31 [ident] 
+2016-08-19 10:38:31 [ident] exception 'Exception' with message 'Деление на ноль.' in C:\xampp\htdocs\LogSystem\tests\combine.php:30
+Stack trace:
+#0 {main}
+2016-08-19 10:38:31 [ident] Vegetable::__set_state(array(
+   'edible' => true,
+   'color' => 'blue',
+))
+2016-08-19 10:38:31 [ident] Spinach::__set_state(array(
+   'cooked' => false,
+   'edible' => true,
+   'color' => 'green',
+))
+2016-08-19 10:38:38 [ident] 'Log entry 0'
+2016-08-19 10:38:38 [ident] 'Log entry 1'
+2016-08-19 10:38:38 [ident] 'Log entry 2'
+2016-08-19 10:38:38 [ident] 
+2016-08-19 10:38:38 [ident] exception 'Exception' with message 'Деление на ноль.' in C:\xampp\htdocs\LogSystem\tests\combine.php:30
+Stack trace:
+#0 {main}
+2016-08-19 10:38:38 [ident] Vegetable::__set_state(array(
+   'edible' => true,
+   'color' => 'blue',
+))
+2016-08-19 10:38:38 [ident] Spinach::__set_state(array(
+   'cooked' => false,
+   'edible' => true,
+   'color' => 'green',
+))
+2016-08-19 10:38:44 [ident] 'Log entry 0'
+2016-08-19 10:38:44 [ident] 'Log entry 1'
+2016-08-19 10:38:44 [ident] 'Log entry 2'
+2016-08-19 10:38:44 [ident] 
+2016-08-19 10:38:44 [ident] exception 'Exception' with message 'Деление на ноль.' in C:\xampp\htdocs\LogSystem\tests\combine.php:30
+Stack trace:
+#0 {main}
+2016-08-19 10:38:44 [ident] Vegetable::__set_state(array(
+   'edible' => true,
+   'color' => 'blue',
+))
+2016-08-19 10:38:44 [ident] Spinach::__set_state(array(
+   'cooked' => false,
+   'edible' => true,
+   'color' => 'green',
+))
+2016-08-19 10:38:45 [ident] 'Log entry 0'
+2016-08-19 10:38:45 [ident] 'Log entry 1'
+2016-08-19 10:38:45 [ident] 'Log entry 2'
+2016-08-19 10:38:45 [ident] 
+2016-08-19 10:38:45 [ident] exception 'Exception' with message 'Деление на ноль.' in C:\xampp\htdocs\LogSystem\tests\combine.php:30
+Stack trace:
+#0 {main}
+2016-08-19 10:38:45 [ident] Vegetable::__set_state(array(
+   'edible' => true,
+   'color' => 'blue',
+))
+2016-08-19 10:38:45 [ident] Spinach::__set_state(array(
+   'cooked' => false,
+   'edible' => true,
+   'color' => 'green',
+))
+2016-08-19 10:39:07 [ident] 'Log entry 0'
+2016-08-19 10:39:07 [ident] 'Log entry 1'
+2016-08-19 10:39:07 [ident] 'Log entry 2'
+2016-08-19 10:39:27 [ident] 'Log entry 0'
+2016-08-19 10:39:27 [ident] 'Log entry 1'
+2016-08-19 10:39:27 [ident] 'Log entry 2'
+2016-08-19 10:39:27 [ident] 
+2016-08-19 10:39:27 [ident] exception 'Exception' with message 'Деление на ноль.' in C:\xampp\htdocs\LogSystem\tests\combine.php:30
+Stack trace:
+#0 {main}
+2016-08-19 10:39:27 [ident] Vegetable::__set_state(array(
+   'edible' => true,
+   'color' => 'blue',
+))
+2016-08-19 10:39:27 [ident] Spinach::__set_state(array(
+   'cooked' => false,
+   'edible' => true,
+   'color' => 'green',
+))
+2016-08-19 10:39:40 [ident] 'Log entry 0'
+2016-08-19 10:39:40 [ident] 'Log entry 1'
+2016-08-19 10:39:40 [ident] 'Log entry 2'
+2016-08-19 10:39:40 [ident] 
+2016-08-19 10:39:40 [ident] exception 'Exception' with message 'Деление на ноль.' in C:\xampp\htdocs\LogSystem\tests\combine.php:30
+Stack trace:
+#0 {main}
+2016-08-19 10:39:40 [ident] Vegetable::__set_state(array(
+   'edible' => true,
+   'color' => 'blue',
+))
+2016-08-19 10:39:40 [ident] Spinach::__set_state(array(
+   'cooked' => false,
+   'edible' => true,
+   'color' => 'green',
+))
+2016-08-19 10:39:42 [ident] 'Log entry 0'
+2016-08-19 10:39:42 [ident] 'Log entry 1'
+2016-08-19 10:39:42 [ident] 'Log entry 2'
+2016-08-19 10:39:42 [ident] 
+2016-08-19 10:39:42 [ident] exception 'Exception' with message 'Деление на ноль.' in C:\xampp\htdocs\LogSystem\tests\combine.php:30
+Stack trace:
+#0 {main}
+2016-08-19 10:39:42 [ident] Vegetable::__set_state(array(
+   'edible' => true,
+   'color' => 'blue',
+))
+2016-08-19 10:39:42 [ident] Spinach::__set_state(array(
+   'cooked' => false,
+   'edible' => true,
+   'color' => 'green',
+))
+2016-08-19 10:39:43 [ident] 'Log entry 0'
+2016-08-19 10:39:43 [ident] 'Log entry 1'
+2016-08-19 10:39:43 [ident] 'Log entry 2'
+2016-08-19 10:39:43 [ident] 
+2016-08-19 10:39:43 [ident] exception 'Exception' with message 'Деление на ноль.' in C:\xampp\htdocs\LogSystem\tests\combine.php:30
+Stack trace:
+#0 {main}
+2016-08-19 10:39:43 [ident] Vegetable::__set_state(array(
+   'edible' => true,
+   'color' => 'blue',
+))
+2016-08-19 10:39:43 [ident] Spinach::__set_state(array(
+   'cooked' => false,
+   'edible' => true,
+   'color' => 'green',
+))
+2016-08-19 10:39:44 [ident] 'Log entry 0'
+2016-08-19 10:39:44 [ident] 'Log entry 1'
+2016-08-19 10:39:44 [ident] 'Log entry 2'
+2016-08-19 10:39:44 [ident] 
+2016-08-19 10:39:44 [ident] exception 'Exception' with message 'Деление на ноль.' in C:\xampp\htdocs\LogSystem\tests\combine.php:30
+Stack trace:
+#0 {main}
+2016-08-19 10:39:44 [ident] Vegetable::__set_state(array(
+   'edible' => true,
+   'color' => 'blue',
+))
+2016-08-19 10:39:44 [ident] Spinach::__set_state(array(
+   'cooked' => false,
+   'edible' => true,
+   'color' => 'green',
+))
+2016-08-19 10:39:50 [ident] 'Log entry 0'
+2016-08-19 10:39:50 [ident] 'Log entry 1'
+2016-08-19 10:39:50 [ident] 'Log entry 2'
+2016-08-19 10:39:51 [ident] 
+2016-08-19 10:39:51 [ident] exception 'Exception' with message 'Деление на ноль.' in C:\xampp\htdocs\LogSystem\tests\combine.php:30
+Stack trace:
+#0 {main}
+2016-08-19 10:39:51 [ident] Vegetable::__set_state(array(
+   'edible' => true,
+   'color' => 'blue',
+))
+2016-08-19 10:39:51 [ident] Spinach::__set_state(array(
+   'cooked' => false,
+   'edible' => true,
+   'color' => 'green',
+))
+2016-08-19 10:39:52 [ident] 'Log entry 0'
+2016-08-19 10:39:52 [ident] 'Log entry 1'
+2016-08-19 10:39:52 [ident] 'Log entry 2'
+2016-08-19 10:39:52 [ident] 
+2016-08-19 10:39:52 [ident] exception 'Exception' with message 'Деление на ноль.' in C:\xampp\htdocs\LogSystem\tests\combine.php:30
+Stack trace:
+#0 {main}
+2016-08-19 10:39:53 [ident] Vegetable::__set_state(array(
+   'edible' => true,
+   'color' => 'blue',
+))
+2016-08-19 10:39:53 [ident] Spinach::__set_state(array(
+   'cooked' => false,
+   'edible' => true,
+   'color' => 'green',
+))
+2016-08-19 10:40:12 [ident] 'Log entry 0'
+2016-08-19 10:40:12 [ident] 'Log entry 1'
+2016-08-19 10:40:12 [ident] 'Log entry 2'
+2016-08-19 10:40:12 [ident] 
+2016-08-19 10:40:12 [ident] exception 'Exception' with message 'Деление на ноль.' in C:\xampp\htdocs\LogSystem\tests\combine.php:30
+Stack trace:
+#0 {main}
+2016-08-19 10:40:12 [ident] Vegetable::__set_state(array(
+   'edible' => true,
+   'color' => 'blue',
+))
+2016-08-19 10:40:12 [ident] Spinach::__set_state(array(
+   'cooked' => false,
+   'edible' => true,
+   'color' => 'green',
+))
+2016-08-19 10:40:20 [ident] 'Log entry 0'
+2016-08-19 10:40:20 [ident] 'Log entry 1'
+2016-08-19 10:40:20 [ident] 'Log entry 2'
+2016-08-19 10:40:20 [ident] 
+2016-08-19 10:40:20 [ident] exception 'Exception' with message 'Деление на ноль.' in C:\xampp\htdocs\LogSystem\tests\combine.php:30
+Stack trace:
+#0 {main}
+2016-08-19 10:40:20 [ident] Vegetable::__set_state(array(
+   'edible' => true,
+   'color' => 'blue',
+))
+2016-08-19 10:40:20 [ident] Spinach::__set_state(array(
+   'cooked' => false,
+   'edible' => true,
+   'color' => 'green',
+))
+2016-08-19 10:40:34 [ident] 'Log entry 0'
+2016-08-19 10:40:34 [ident] 'Log entry 1'
+2016-08-19 10:40:34 [ident] 'Log entry 2'
+2016-08-19 10:40:34 [ident] 
+2016-08-19 10:40:34 [ident] exception 'Exception' with message 'Деление на ноль.' in C:\xampp\htdocs\LogSystem\tests\combine.php:30
+Stack trace:
+#0 {main}
+2016-08-19 10:40:34 [ident] Vegetable::__set_state(array(
+   'edible' => true,
+   'color' => 'blue',
+))
+2016-08-19 10:40:34 [ident] Spinach::__set_state(array(
+   'cooked' => false,
+   'edible' => true,
+   'color' => 'green',
+))
+2016-08-19 10:40:36 [ident] 'Log entry 0'
+2016-08-19 10:40:36 [ident] 'Log entry 1'
+2016-08-19 10:40:36 [ident] 'Log entry 2'
+2016-08-19 10:40:36 [ident] 
+2016-08-19 10:40:36 [ident] exception 'Exception' with message 'Деление на ноль.' in C:\xampp\htdocs\LogSystem\tests\combine.php:30
+Stack trace:
+#0 {main}
+2016-08-19 10:40:36 [ident] Vegetable::__set_state(array(
+   'edible' => true,
+   'color' => 'blue',
+))
+2016-08-19 10:40:36 [ident] Spinach::__set_state(array(
+   'cooked' => false,
+   'edible' => true,
+   'color' => 'green',
+))
+2016-08-19 10:40:52 [ident] 'Log entry 0'
+2016-08-19 10:40:52 [ident] 'Log entry 1'
+2016-08-19 10:40:52 [ident] 'Log entry 2'
+2016-08-19 10:40:52 [ident] 
+2016-08-19 10:40:52 [ident] exception 'Exception' with message 'Деление на ноль.' in C:\xampp\htdocs\LogSystem\tests\combine.php:30
+Stack trace:
+#0 {main}
+2016-08-19 10:40:52 [ident] Vegetable::__set_state(array(
+   'edible' => true,
+   'color' => 'blue',
+))
+2016-08-19 10:40:52 [ident] Spinach::__set_state(array(
+   'cooked' => false,
+   'edible' => true,
+   'color' => 'green',
+))

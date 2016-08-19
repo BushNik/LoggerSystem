@@ -6,9 +6,10 @@ require_once '../Logger.php';
 require_once 'classes.php';
 
 $paramsConsole = array('timeFormat' => '%Y-%m-%d %H:%M:%S');
-$loggerConsole = &Logger::singleton('Console', '', 'ident', $paramsConsole);
+$loggerConsole = Logger::singleton('Console', '', 'ident', $paramsConsole);
+$loggerConsole2 = Logger::singleton('Console', '', 'ident', $paramsConsole);
 $paramsFile = array('mode' => 0600, 'timeFormat' => '%Y-%m-%d %H:%M:%S', 'append' => true);
-$loggerFile = &Logger::singleton('File', 'logs/out.log', 'ident', $paramsFile);
+$loggerFile = Logger::singleton('File', 'logs/out.log', 'ident', $paramsFile);
 $paramsSQL = array('persistent' => true);
 $dbProperties = array(
     'host' => 'localhost',
@@ -18,13 +19,13 @@ $dbProperties = array(
     'table' => 'log_table',
     'charset' => 'utf8'
 );
-$loggerSQL = &Logger::singleton('SQL', $dbProperties, 'ident', $paramsSQL);
+$loggerSQL = Logger::singleton('SQL', $dbProperties, 'ident', $paramsSQL);
 for ($i = 0; $i < 3; $i++) {
     $loggerFile->log("Log entry $i");
     $loggerSQL->log("Log entry $i");
     $loggerConsole->log("Log entry $i");
 }
-$cars = array("Volvo", "BMW", "Toyota");
+$cars = array(array(array("Volvo", "BMW", "Toyota"), "BMW", "Toyota"), "BMW", "Toyota");
 $loggerFile->log($cars);
 $loggerFile->log(new Exception('Деление на ноль.'));
 $loggerSQL->log($cars);

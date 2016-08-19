@@ -14,7 +14,7 @@ $dbProperties = array(
     'table' => 'log_table',
     'charset' => 'utf8'
 );
-$logger = &Logger::singleton('SQL', $dbProperties, 'ident', $params);
+$logger = Logger::singleton('SQL', $dbProperties, 'ident', $params);
 for ($i = 0; $i < 3; $i++) {
     $logger->log("Log entry $i");
 }

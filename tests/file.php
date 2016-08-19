@@ -6,7 +6,7 @@ require_once '../Logger.php';
 require_once 'classes.php';
 
 $params = array('mode' => 0600, 'timeFormat' => '%Y-%m-%d %H:%M:%S', 'append' => true);
-$logger = &Logger::singleton('File', 'logs/out.log', 'ident', $params);
+$logger = Logger::singleton('File', 'logs/out.log', 'ident', $params);
 for ($i = 0; $i < 3; $i++) {
     $logger->log("Log entry $i");
 }

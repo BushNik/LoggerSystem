@@ -31,7 +31,7 @@ class Console extends Logger {
      * Нужно ли закрывать поток $stream?
      * @var bool
      */
-    var $_closeResource = false;
+    var $closeResource = false;
 
     /**
      * Создаёт новый логгер с возможностью записывать логи в заданный поток.
